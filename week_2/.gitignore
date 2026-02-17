@@ -25,3 +25,4 @@ solution/
 *.njsproj
 *.sln
 *.sw?
+pnpm-workspace.yaml
