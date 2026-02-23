@@ -1,0 +1,79 @@
+.realtime-indicator {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.realtime-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.realtime-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.updating-badge {
+  background: rgba(255,255,255,0.3);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  animation: pulse 1s infinite;
+}
+
+.realtime-content {
+  text-align: center;
+}
+
+.realtime-value {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.realtime-label {
+ font-size: 1.1rem;
+ opacity: 0.9;
+}
+
+.realtime-timestamp {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 12px;
+}
+
+.next-update {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: 8px;
+}
+
+.progress-bar {
+  margin-top: 16px;
+  height: 4px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: white;
+  width: 100%;
+  transform-origin: left;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes progress {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
