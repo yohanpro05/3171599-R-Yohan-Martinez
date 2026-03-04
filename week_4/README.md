@@ -23,27 +23,6 @@ Crear una aplicación web en React + TypeScript que permita explorar un catálog
 - pnpm (gestor de paquetes)
 - CSS puro (en `App.css`) para estilizado
 
-## Capturas de pantalla
-
-### 1. Pantalla principal (catálogo completo)
-![Pantalla principal](capturas/principal.png)
-
-### 2. Búsqueda en tiempo real activa
-![Búsqueda activa](capturas/busqueda-activa.png)
-
-### 3. Filtros aplicados (categoría + solo disponibles)
-![Filtros aplicados](capturas/filtros-aplicados.png)
-
-### 4. Estado vacío (sin resultados)
-![Estado vacío](capturas/estado-vacio.png)
-
-### 5. Ordenamiento cambiado (ej: precio mayor a menor)
-![Ordenamiento](capturas/ordenamiento.png)
-
-### 6. Vista con loading simulado
-![Estado de carga](capturas/loading.png)
-
-*(Reemplaza los enlaces con las rutas reales de tus imágenes, por ejemplo: `capturas/principal.png`)*
 
 ## Instrucciones de ejecución
 
